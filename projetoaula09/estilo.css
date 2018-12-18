@@ -1,0 +1,18 @@
+.fontSerif{
+	font-style: italic;
+	font-family: "Times New Roman", Times , serif;
+	font-size: 5em;
+}
+
+.fonteSans-Serif{
+	font-style: oblique;
+	font-family: "Verdana", Arial, Helvetica, sans-serif;
+	font-size: 2.5em;
+}
+.fonteMonospace{
+	font-family: "Courier New";
+	font-size: 1.25em;
+}
+.conteudo{
+	font-size: 30px;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<style type="text/css">
+		#menu{
+			background-color: gray;
+		}
+		#conteudo{
+			background-color: #CECE7B;
+		}
+		#rodape{
+			background-color: rgb(206,241,123);
+			width: 100%;
+			height: 30%;
+			text-align: center;
+			position: absolute;
+			bottom: 0;
+		}
+		.copy{
+			font-style: italic;
+			font-weight: bold;
+		}
+		div{
+			border-style: solid;
+						/*T    R    B   L */		
+			border-width: 5px 10px 5px 5px;
+			border-color: red green gray blue;		
+		}
+		table{
+			font-family: Verdana, Geneva, Arial, Helvetica;
+			font-size: 10pt;
+			text-align: center;
+			padding-left: 4px;
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+		td{
+			border: 1px solid black;
+		}
+		th{
+			border: 1px solid black;
+			background-color: #b2beff;
+		}
+		.linhapar{
+			background-color: #C1CDC1
+		}
+		.linhaimpar{
+			background-color: #E0EEE0
+		}
+		.linhaTotal{
+			background-color: #EEE0E5
+		}
+		tr:hover { 
+ 		   background-color: yellow;
+		}
+	</style>
+
+</head>
+<body>
+
+	<div id="menu">
+		Home | Quem Somos | Contato
+	</div>
+
+	<div id="conteudo">
+		Bloco para o conteúdo site
+	</div>
+
+	<div id="rodape">
+		<span class="copy">Copyright &copy;</span> Todos os diretos reservados		
+	</div>
+
+	<table >
+
+	<tr>
+		<th>Loja</th>
+		<th>Janeiro</th>
+		<th>Fevereiro</th>
+	</tr>
+
+	<tr  class="linhaimpar">
+		<td>Filial 1</td>
+		<td>120</td>
+		<td>320</td>
+	</tr>
+
+	<tr class="linhapar">
+		<td>Filial 2</td>
+		<td>120</td>
+		<td>120</td>
+	</tr>
+
+	<tr class="linhaTotal">
+		<td>Total</td>
+		<td>240</td>
+		<td>440</td>
+	</tr>
+
+			
+	</table>
+
+</body>
+</html>
