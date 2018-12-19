@@ -7,43 +7,64 @@
 	<style type="text/css">
 	
 	body {
-		background-color: #61bd8c;
-	}
-
-	#conteudo{
-		background: #FFFFFF;
-		padding: 10PX;
-		width: 100%;
-		margin: 30px auto;
-	}
-
-	.caixa{
-		background: red;
-		margin: 10px;
-		width: 100px;
-		height: 100px;
-		color: #FFFFFF;
+		margin-top: 0px;
+		margin-left: 0px;
+		font-size: 25px;
+		color: #FFFFFF;	
+		font-family: arial;
+		font-weight: bold;	
 	}
 
 	#menu{
-		background-color: red;
+
+		background: #ff0000;
 		width: 100%;
+		padding-top: 5px;
+		height: 40px;
+		text-align: center;
+	}
+
+	#header{
+		background: #0000FF;		
+		width: 100%;	
+		color: #FFFFFF;
+		padding-top: 40px;
+		height: 70px;
+		text-align: center;
+	}
+
+	#content{
+		background: #00ff00;
+		text-align: center;
+		padding-top: 190px;
+		width: 65%;
+		height: 270px;
 		
 	}
 
-	#relativo{
-		position: relative;
-		left: 30px;
+	#sidebar{
+		margin-top: -460px;
+		background: #2e8b57;
+		padding-top: 190px;
+		text-align: center;
+		width: 35%;
+		height: 270px;
+		float: right;
 	}
 
-	#absoluto{
-		position: absolute;
-		left: 30px;
+	#footer{
+		background: #b8860b;
+		width: 100%;
+		padding-top: 15px;
+		height: 45px;
+		text-align: center;
+		
 	}
 	#fixo{
 		position: fixed;
 		left: 200px;
 		top: 0px; 
+		float: left;
 	}
 
 	</style>
@@ -52,13 +73,21 @@
 
 	
 	
-	<div id="conteudo">
-		
-		<div id="menu">
-			menu
-		</div>
+	<div id="menu">		
+		MAIN MENU
+	</div>
 
-
+	<div id="header">
+		HEADER
+	</div>
+	<div id="content">
+		CONTENT
+	</div>
+	<div id="sidebar">
+		SIDE BAR		
+	</div>
+	<div id="footer">
+		FOOTER
 	</div>
 
 </body>
