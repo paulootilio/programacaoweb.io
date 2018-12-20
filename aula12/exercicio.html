@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Box Model</title>
+	<meta charset="utf-8">
+
+	<style type="text/css">
+
+	body{
+		margin-left: 0px;
+	}
+
+	nav{
+		background: #eee685;
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+		font-size: 18px;
+		padding: 10px;
+		position: fixed;
+		left: 0px;
+		width: 100%;
+		top: 0px;
+		text-align: center;		
+		
+	}
+
+	a:link{/* não visitado */
+		color: #b9c941;
+		text-decoration: none;
+	}
+
+	a:visited{/* visitado */
+		color: #45bb00;
+		text-decoration: none;
+	}
+
+	a:hover{/* passar o mouse */
+		color: #8b4726;
+	}
+
+	a:active{ /* clicado */
+		color: #ff1493;
+	}
+
+	.imagem{
+			
+			width: 250px;			
+			border: 0px solid black;
+	}
+
+	.backgrouimg{
+			width: 250px;
+			padding: 10px;
+			border: 0px solid black;
+			margin: 10px;			
+			float: left;
+			background-color: #FFFFFF;
+
+		}
+
+	header{
+		padding-top: 40px;
+		font-size: 15px;
+	}
+
+	#header{
+		font-size: 25px;
+		width: 100%;	
+		color: #b9c941;
+		padding-top: 40px;
+		height: 70px;
+		text-align: center;
+	}
+
+	#content{
+		
+		text-align: center;
+		padding-top: 40px;
+		width: 65%;
+		height: 270px;
+		text-align: left;
+		
+	}
+
+	#sidebar{
+		
+		margin-top: -312px;			
+		padding-top: 40px;
+		text-align: center;
+		width: 35%;
+		height: 270px;
+		float: right;
+	}
+
+	footer{
+		float: both;
+		margin: 10px;
+		clear: both;
+		background-color: #BDBDBD;
+		text-align: center;
+	}
+
+
+
+	</style>
+	
+
+</head>
+<body>
+
+<nav>
+
+	<a href="">INICIO</a>
+	<a href="">SOBRE</a>
+	<a href="">CONTATO</a>	
+
+</nav>
+
+<header id="header">
+	<h1>Lorem Ipsum</h1>
+</header>	
+
+<div id="content">
+	<h1>What is Lorem Ipsum?</h1>
+	<p>
+		Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.	
+	</p>
+</div>
+
+<div id="sidebar">
+	<h1>Contato</h1>
+	<p>Email:lorenipsoncontato@loreipson.com</p>
+	<p>Telefone:(86)3243-6789</p>
+	<p>Endereço: AV.Loren Ipson 3525</p>
+</div>
+
+<div id="content">
+	<div class="backgrouimg">
+	<img class="imagem" src="img/imagem1.png">
+	<p>Resumo</p>		
+	</div>
+
+	<div class="backgrouimg">
+	<img class="imagem" src="img/imagem2.png">
+	<p>Resumo</p>		
+	</div>
+
+	<div class="backgrouimg">
+	<img class="imagem" src="img/imagem3.png">
+	<p>Resumo</p>		
+	</div>
+
+	<div class="backgrouimg">
+	<img class="imagem" src="img/imagem4.png">
+	<p>Resumo</p>		
+	</div>
+
+	<div class="backgrouimg">
+	<img class="imagem" src="img/imagem5.png">
+	<p>Resumo</p>		
+	</div>
+</div>
+
+<footer>
+	<p>Postado por: Paulo Otilio</p>
+	<p>Contato: <a href="http://paulootilio14@gmail.com">paulootilio14@gmail.com</a></p>
+</footer>
+
+</body>
+</html>
