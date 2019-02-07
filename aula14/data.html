@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Data</title>
+
+	<style type="text/css">
+		.pessoa{
+			color: red;
+		}
+		.pessoa[data-idade='20']{
+			color: blue;
+		}
+
+	/*.pessoa::before{
+			content: 'antes';		
+		}
+	*/	
+		.pessoa::after{
+			content: ;
+
+		}
+	
+	</style>
+
+	<script type="text/javascript">
+
+
+		function mostrarvalor(componente){
+			var valor = componente.getAttribute('data-nome') + " " + componente.getAttribute('data-idade')
+			alert(valor);
+
+		}
+
+		function valoridade(componente){
+			var idade = componente.getAttribute('data-idade')			
+		}
+
+
+	</script>
+
+</head>
+<body>
+
+	<ul>
+		<li class="pessoa" onclick="mostrarvalor(this)" data-nome="Joao " data-idade="18" value="idade" > João </li>
+		<li class="pessoa" onclick="mostrarvalor(this)" data-nome="Jose " data-idade="20"> José </li>
+		<li class="pessoa" onclick="mostrarvalor(this)" data-idade="Maria "> Maria </li>
+
+	</ul>
+
+</body>
+</html>
