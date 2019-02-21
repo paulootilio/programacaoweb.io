@@ -1,0 +1,128 @@
+<!DOCTYPE html><!-- doctype do HTML5 -->
+<html>
+  <head>
+    <title>aula 22</title>
+    
+    <!-- Importante para habilitar os recursos de Responsividade em conjunto com o CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="bootstrap/js/bootstrap.js"></script>
+              
+      <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+
+      <link rel="stylesheet" type="text/css" href="bootstrap/css/meuestilio.css">
+      
+  </head>
+  
+<body>
+
+<nav class="nav navbar-default">
+  <div class="container">
+
+    <div class="nav-header">
+      <a href="" class="navbar-brand">LOGO</a>
+
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#minhabarra">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+    </div>
+
+    
+
+    <div id="minhabarra" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li> <a href="#">home</a> </li>
+        <li> <a href="#">empresa</a> </li>
+        <li> <a href="#">clientes</a> </li>
+        <li> <a href="#">produtos</a> </li>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Minha Conta <span class="caret"></span> </a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Editar</a></li>
+            <li><a href="#">Logout</a></li>
+          </ul>
+        
+        </li>
+
+      </ul>
+
+
+
+    </div>
+
+    
+    
+  </div>
+  
+</nav><br><br><br>
+
+<button type="button" class="btn btn-info" data-toggle="modal" data-target="#janela">
+  Logar  
+</button>
+
+<div class="container">
+  <form class="modal" id="janela">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+          <h4 class="modal-title">Efetuar Login</h4>
+        </div>
+
+        <div class="modal-body">
+         
+
+          <form>
+            
+            <div class="form-group">
+              <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+            </div>
+
+            <div class="form-group">
+              <input type="password" class="form-control" id="senha" placeholder="Digite sua senha">
+            </div>
+
+            
+          </form>
+
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss=modal>
+            Cancelar
+          </button>
+
+          <button type="submit" class="btn btn-primary">
+            Entrar
+          </button>
+        </div>
+        
+      </div>
+      
+    </div>
+    
+  </form>
+  
+</div>
+
+
+
+
+
+   
+  </body>
+  
+</html>

@@ -47,7 +47,7 @@ body{
 	}
 
 	a:visited{/* visitado */
-		color: #D8D8D8;
+		color: #FAFAFA;
 		text-decoration: none;
 		text-shadow: 1px 1px 1px #000000;
 	}
@@ -66,6 +66,10 @@ body{
 
 	nav a span{
 		float: left;
+	}
+	nav a{
+		font-family: "Geogia","Trebuchet MS", Helvetica, sans-serif;
+		color: #FFFFFF;
 	}
 
 	a span#cor1 {
@@ -135,41 +139,80 @@ body{
 
 
 	.imagem{
-			
-			width: 250px;			
+
+			width: 275px;	
+			height: 200px;		
 			border: 0px solid black;
 			float: left;
 			border-radius: 10px;
+			margin-top: 20px;
+			margin-left: 5px;
 	}
+
+	.imgacess{
+			width: 240px;	
+			height: 140px;		
+			border: 0px solid black;
+			position: center;
+			border-radius: 10px;
+			margin-top: 20px;
+			margin-left: 5px;
+	}
+
+
 
 	.backgrouimg{
 			width: 90%;
 			height: 30%;
 			margin: 10px;			
 			float: left;
+			background: #E6E6E6;
+			box-shadow: 2px 2px 10px #000000;
+			border-radius: 10px;
+			background: linear-gradient(to bottom, white, #81BEF7);
 
 
 		}
 
+	#slideimg{
+		width: 230px;
+		height: 230px;
+		margin-left: 80px;
+	}	
+
+	.t1{
+		width: 380px;
+		height: 40px;
+		background: #2E9AFE;
+		box-shadow: 1px 1px 5px #000000;
+	}
+
 	#titulo{
-		line-height: 4px;
+		padding-left: 285px;
 		color: #2E9AFE;
 		text-shadow: 1px 1px 1px #000000;
 	}	
 
 	#data{
+
 		font-size: 12px;
-		line-height: 2px;
-		font-weight: bold;
-		color: #81BEF7
+		color: #6E6E6E;
+		text-shadow: 0px 0px 0px #000000;
+
 	}
 
 	#padding{
 		color: #424242;
 		padding-left: 10px;
+		padding-left: 285px;
 		
 	}	
 	
+	#autor{
+		font-size: 12px;
+		color: #848484;
+		float: right;
+	}
 
 	
 
@@ -241,12 +284,12 @@ body{
 		}
 
 	#content{
-		margin: 5px;
+		margin: 10px;
 		width: 68%;
-		height: 800px;
+		height: 100%;
 		text-align: left;
 		float: left;
-		
+
 		
 		
 	}
@@ -257,15 +300,19 @@ body{
 		text-shadow: 1px 1px 3px #000000;
 	}
 
-	#sidebar{
-		
-				
+	#sidebar{		
 		padding-top: 40px;
 		text-align: center;
 		width: 30%;
-		height: 270px;
+		height: 900px;
 		float: left;
+		box-shadow: 1px 1px 5px #000000;
 		
+	}
+
+	#sidebar h4{
+		font-size: 15px;
+		float: left;
 	}
 
 	footer{
@@ -273,10 +320,65 @@ body{
 		width: 100%;
 		float: both;
 		clear: both;
-		background-color: #2E2E2E;
-		text-align: center;
+		background: #424242;
+		
+		border: 1px solid;
+	}
+
+	
+
+	#linkfooter{
+		color: red;
+	}
+
+	#footerr{
+		width: 49%;
+		height: 100px;
+		
+		text-align: left;
+		float: left;
+		background: #424242;
+		margin: 0;
+  		padding: 0;
+		
+	}
+	#footerr2{
+		width: 645px;
+		height: 100px;
+		
+		text-align: left;
+		float: left;
+		background: #424242;
+		margin: 0;
+  		padding: 0;
+		
+	}
+
+	#footerr3{
+		width: 100%;
+		height: 50px;
+		
+		text-align: left;
+		float: left;
+		background: #424242;
+		margin: 0;
+  		padding: 0; 
+		
+	}
+
+	.imgfooter{
+		
+		width: 50px;
+		height: 35px;
 	}
 
 	footer a{
-		color: 
+
+		color: #f2f2f2;
+
 	}
+
+
+
+
+

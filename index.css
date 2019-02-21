@@ -1,0 +1,136 @@
+nav{
+		background: #2E9AFE;
+		font-family: "Book Antiqua","Trebuchet MS", Helvetica, sans-serif;
+		font-size: 18px;
+		left: 0px;
+		width: 100%;
+		top: 0px;
+		text-align: center;		
+		font-family: bold;
+		font-size: 18px;
+		float: left;
+		
+	}
+
+	.logo{
+		font-size: 40px;
+	}
+
+nav a span{
+		float: left;
+	}
+
+	a span#cor1 {
+		float: left;
+		color: #2EFEF7;}
+	a span#cor2 {	
+		float: left;
+		color: #F2F2F2;}
+
+	.dropbtn {
+	  background-color: #2E9AFE;
+	  color: white;
+	  padding: 16px;
+
+	  font-size: 16px;
+	  border: none;
+	  cursor: pointer;
+	  text-shadow: 1px 1px 1px black;
+	}
+
+	/* O contêiner <div> - precisava posicionar o conteúdo suspenso */
+	.dropdown {
+	  position: relative;
+	  display: inline-block;
+	  float: right;
+	  padding-right: 20px;
+
+
+	}
+
+	/* Conteúdo suspenso (oculto por padrão) */
+	.dropdown-content {
+	  display: none;
+	  position: absolute;
+	  background-color: #F2F2F2;
+	  min-width: 100px;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+	  position: center;
+	  
+	}
+
+	/* Links dentro do menu suspenso */
+	.dropdown-content a {
+	  color: #000000;
+	  font-family: "Book Antiqua";
+	  font-size: 16px;
+	  padding: 5px 5px;
+	  display: block;
+	  float: left;
+	}
+
+	/* Alterar a cor dos links suspensos ao passar o mouse */
+	.dropdown-content a:hover {
+		background-color: #2E9AFE;
+		color: #FFFFFF;
+	}
+
+	/* Mostrar o menu suspenso em foco */
+	.dropdown:hover .dropdown-content {
+	  display: block;
+	}
+
+	/* Alterar a cor do plano de fundo do botão suspenso quando o conteúdo suspenso é mostrado */
+	.dropdown:hover .dropbtn {
+	  background-color: #58ACFA;
+	}
+
+	a:link{/* não visitado  b9c941 */ 
+		color: #b9c941;
+		text-decoration: none;
+	}
+
+	a:visited{/* visitado  45bb00 */ 
+		color: #45bb00;
+		text-decoration: none;
+	}
+
+	a:hover{/* passar o mouse 8b4726 */
+		color: #642EFE;
+	}
+
+	a:active{ /* clicado */
+		color: #ff1493;
+	}
+
+	nav{
+		background: #642EFE;
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+		font-size: 18px;
+		padding: 10px;
+		position: fixed;
+		left: 0px;
+		width: 100%;
+		top: 0px;
+		text-align: center;
+
+		
+	}
+
+	#content{
+		
+		text-align: center;
+		padding-top: 100px;
+		width: 100%;
+		height: 270px;
+		text-align: left;
+		border: 0px solid gray;
+		text-align: center;
+		font-size: 30px;
+		
+	}
+
+	body{
+		font-size: 20px;
+	}
