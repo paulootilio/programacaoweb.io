@@ -7,7 +7,7 @@
 		.pessoa{
 			color: red;
 		}
-		.pessoa[data-idade='20']{
+		.pessoa[data-idade2='20']{
 			color: blue;
 		}
 
@@ -26,8 +26,23 @@
 
 
 		function mostrarvalor(componente){
-			var valor = componente.getAttribute('data-nome') + " " + componente.getAttribute('data-idade')
-			alert(valor);
+			var valor = componente.getAttribute('data-nome1') + " " + componente.getAttribute('data-idade1')
+			//alert(valor);
+			document.getElementById("kaka").innerHTML = valor;
+
+		}
+
+		function mostrarvalor2(componente){
+			var valor = componente.getAttribute('data-nome2') + " " + componente.getAttribute('data-idade2')
+			//alert(valor);
+			document.getElementById("kaka2").innerHTML = valor;
+
+		}
+
+		function mostrarvalor3(componente){
+			var valor = componente.getAttribute('data-nome3') + " " + componente.getAttribute('data-idade3')
+			//alert(valor);
+			document.getElementById("kaka3").innerHTML = valor;
 
 		}
 
@@ -39,14 +54,15 @@
 	</script>
 
 </head>
-<body>
+<body >
 
 	<ul>
-		<li class="pessoa" onclick="mostrarvalor(this)" data-nome="Joao " data-idade="18" value="idade" > João </li>
-		<li class="pessoa" onclick="mostrarvalor(this)" data-nome="Jose " data-idade="20"> José </li>
-		<li class="pessoa" onclick="mostrarvalor(this)" data-idade="Maria "> Maria </li>
+		<li class="pessoa" onclick="mostrarvalor(this)" data-nome1="Joao " data-idade1="18" id="kaka">João</li>
+		<li class="pessoa" onclick="mostrarvalor2(this)" data-nome2="Jose " data-idade2="20" id="kaka2"> José </li>
+		<li class="pessoa" onclick="mostrarvalor3(this)" data-nome3="Maria " data-idade3="40 " id="kaka3"> Maria </li>
 
 	</ul>
+
 
 </body>
 </html>
